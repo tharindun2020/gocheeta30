@@ -1,0 +1,166 @@
+.navbar.default-layout::after,
+.page-title-wrapper::after {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #eb0028 0%, #ffc300 80%) repeat scroll 0 0;
+}
+.navbar.default-layout .navbar-menu-wrapper{
+  background-color: transparent;
+}
+.navbar.default-layout .navbar-brand-wrapper {
+  background-color: #f1381d;
+  border-color: transparent;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+.sidebar {
+  background: rgba(0, 0, 0, 0) linear-gradient(90deg, #e53c64 0%, #fafa37 80%) repeat scroll 0 0;
+}
+.sidebar .nav .nav-item.active > .nav-link, .sidebar .nav .nav-item.active > .nav-link:hover {
+  background: #f1381d none repeat scroll 0 0;
+  color: #fff;
+}
+.sidebar .nav .nav-item .nav-link[aria-expanded="true"] {
+  background: #f1381d none repeat scroll 0 0;
+}
+.sidebar .nav .nav-item .nav-link {
+  color: #ffffff;
+}
+.sidebar .nav .nav-item .nav-link i.menu-arrow::before {
+  color: #ffffff;
+}
+.navbar.default-layout .navbar-menu-wrapper {
+  color: #ffffff;
+}
+
+.sidebar .nav:not(.sub-menu) > .nav-item:hover:not(.nav-profile) > .nav-link i.menu-arrow::before{
+  color: #252525;
+}
+
+
+.gradient-card .card .card-body {
+  color: #fff;
+}
+.sidebar .nav .nav-item .nav-link .menu-icon {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #eb0028 0%, #ffc300 80%) repeat scroll 0 0;
+}
+
+.card-statistics.one {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #9c2f9d 0%, #f56b47 80%) repeat scroll 0 0;
+}
+.card-statistics.two {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #f5511e 0%, #f58baa 80%) repeat scroll 0 0;
+}
+.card.card-statistics.three {
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, #0288d1 0%, #26c6da 100%) repeat scroll 0 0;
+}
+.card.card-statistics.four {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #42a650 0%, #3cdfa7 80%) repeat scroll 0 0;
+}
+.gradient-card .card .card-body .float-left i,
+.gradient-card .card-body p.text-muted  {
+  color: #fff !important;
+}
+
+
+.badge-danger {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #ff678f 0%, #e34141 80%) repeat scroll 0 0;
+}
+
+.badge-success, .preview-list .preview-item .preview-thumbnail .badge.badge-online {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #3fe794 0%, #0bb360 80%) repeat scroll 0 0;
+}
+.badge-warning, .preview-list .preview-item .preview-thumbnail .badge.badge-busy {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #fff734 0%, #ffc300 80%) repeat scroll 0 0;
+}
+.badge-info, .preview-list .preview-item .preview-thumbnail .badge.badge-offline,
+.popover-info .popover-header  {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #b587fc 0%, #7042da 80%) repeat scroll 0 0;
+}
+.badge-danger {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #ff678f 0%, #e34141 80%) repeat scroll 0 0;
+}
+.btn-info, .editable-container.editable-inline .editableform .control-group .editable-buttons .editable-submit,
+.btn-inverse-info:hover,
+.btn-inverse-info:focus,
+.btn-outline-info:hover,
+.btn-outline-info:focus {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #b587fc 0%, #7042da 80%) repeat scroll 0 0;
+  border-color: #8862e0;
+  color: #fff;
+}
+
+.btn-success {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #3fe794 0%, #0bb360 80%) repeat scroll 0 0;
+  border-color: #00ce68;
+  color: #fff;
+}
+.btn-primary, .wizard > .actions a,.btn-inverse-primary:hover,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus ,
+.badge-primary,
+.popover-primary .popover-header,
+.tooltip-primary .tooltip-inner  {
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, #26c6da 0%, #0288d1 100%) repeat scroll 0 0;
+}
+.bg-success, .settings-panel .color-tiles .tiles.success,.btn-inverse-success:hover,
+.btn-outline-success:hover,
+.btn-outline-success:focus,
+.popover-success .popover-header,
+.tooltip-success .tooltip-inner  {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #3fe794 0%, #0bb360 80%) repeat scroll 0 0;
+}
+.bg-warning, .settings-panel .color-tiles .tiles.warning {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #ffff52 0%, #ffc300 80%) repeat scroll 0 0;
+}
+
+.accordion.accordion-multiple-filled .card:nth-child(5n+1) .card-header a[aria-expanded="false"] {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #9c2f9d 0%, #f56b47 80%) repeat scroll 0 0;
+}
+.accordion.accordion-multiple-filled .card:nth-child(5n+2) .card-header a[aria-expanded="false"] {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #3fe794 0%, #0bb360 80%) repeat scroll 0 0;
+}
+.accordion.accordion-multiple-filled .card:nth-child(5n+3) .card-header a[aria-expanded="false"] {
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, #26c6da 0%, #0288d1 100%) repeat scroll 0 0;
+}
+.btn-warning,
+.btn-inverse-warning:hover,
+.btn-inverse-warning:focus,
+.btn-outline-warning:hover,
+.btn-outline-warning:focus,
+.popover-warning .popover-header,
+.tooltip-warning .tooltip-inner   {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #ffff52 0%, #ffc300 80%) repeat scroll 0 0;
+}
+.btn-danger,
+.btn-inverse-danger:hover,
+.btn-inverse-danger:focus,
+.btn-outline-danger:hover,
+.btn-outline-danger:focus,
+.popover-danger .popover-header ,
+.tooltip-danger .tooltip-inner  {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #ff9d82 0%, #f1381d 80%) repeat scroll 0 0;
+}
+.btn-dark,
+.btn-inverse-dark:hover,
+.btn-inverse-dark:focus,
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.tooltip-inner {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #6a7087 0%, #383e55 80%) repeat scroll 0 0;
+}
+
+
+
+.btn-facebook {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #7d99df 0%, #3b579d 80%) repeat scroll 0 0;
+}
+.btn-twitter {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #6df1ff 0%, #1da1f2 80%) repeat scroll 0 0;
+}
+.btn-dribbble {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #ff77b4 0%, #ea4c89 80%) repeat scroll 0 0;
+}
+.btn-linkedin {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #4bc1fe 0%, #0177b4 80%) repeat scroll 0 0;
+}
+.btn-google {
+  background: rgba(0, 0, 0, 0) linear-gradient(32deg, #ff9d82 0%, #f1381d 80%) repeat scroll 0 0;
+}
