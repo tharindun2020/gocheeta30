@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="cabservice"/>
+  <table-filter match-name="branches"/>
+  <table-filter match-name="driverdetails"/>
+  <table-filter match-name="vehicle"/>
+  <table-filter match-name="ridedetailz"/>
+  <table-filter match-name="adminlogz"/>
+  <table-filter match-name="users"/>
+  <table-filter match-name="cities"/>
+  <table-filter match-name="districts"/>
+  <table-filter match-name="reviews"/>
+  <table-filter match-name="vehicletypez"/>
+</hibernate-reverse-engineering>
