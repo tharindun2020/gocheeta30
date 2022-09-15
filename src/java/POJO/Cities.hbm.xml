@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 7, 2022 3:38:11 PM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="POJO.Cities" table="cities" catalog="cabservice">
+        <id name="idCity" type="java.lang.Integer">
+            <column name="id_city" />
+            <generator class="identity" />
+        </id>
+        <property name="district" type="string">
+            <column name="district" length="233" />
+        </property>
+        <property name="city" type="string">
+            <column name="city" length="233" />
+        </property>
+        <property name="statusz" type="string">
+            <column name="statusz" length="233" />
+        </property>
+        <property name="diliverycost" type="string">
+            <column name="diliverycost" length="233" />
+        </property>
+    </class>
+</hibernate-mapping>
