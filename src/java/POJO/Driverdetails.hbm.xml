@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 7, 2022 3:38:11 PM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="POJO.Driverdetails" table="driverdetails" catalog="cabservice">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="drivername" type="string">
+            <column name="drivername" length="233" />
+        </property>
+        <property name="dnicz" type="string">
+            <column name="dnicz" length="233" />
+        </property>
+        <property name="dcontactz" type="string">
+            <column name="dcontactz" length="233" />
+        </property>
+        <property name="dpasswordz" type="string">
+            <column name="dpasswordz" length="233" />
+        </property>
+        <property name="branchz" type="string">
+            <column name="branchz" length="233" />
+        </property>
+        <property name="statusz" type="string">
+            <column name="statusz" length="233" />
+        </property>
+        <property name="dregno" type="string">
+            <column name="dregno" length="65535" />
+        </property>
+        <property name="cityz" type="string">
+            <column name="cityz" length="233" />
+        </property>
+    </class>
+</hibernate-mapping>
