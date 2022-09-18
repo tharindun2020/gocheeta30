@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 18, 2022 12:02:48 PM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="POJO.Reviews" table="reviews" catalog="cabservice">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="vehiclenumber" type="string">
+            <column name="vehiclenumber" length="233" />
+        </property>
+        <property name="reviewz" type="string">
+            <column name="reviewz" length="65535" />
+        </property>
+        <property name="usernamez" type="string">
+            <column name="usernamez" length="233" />
+        </property>
+        <property name="datez" type="string">
+            <column name="datez" length="233" />
+        </property>
+        <property name="timez" type="string">
+            <column name="timez" length="233" />
+        </property>
+        <property name="statusz" type="string">
+            <column name="statusz" length="233" />
+        </property>
+    </class>
+</hibernate-mapping>
