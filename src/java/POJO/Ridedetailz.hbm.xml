@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 18, 2022 12:02:48 PM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="POJO.Ridedetailz" table="ridedetailz" catalog="cabservice">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="vehnumber" type="string">
+            <column name="vehnumber" length="233" />
+        </property>
+        <property name="vehicletype" type="string">
+            <column name="vehicletype" length="233" />
+        </property>
+        <property name="drivername" type="string">
+            <column name="drivername" length="233" />
+        </property>
+        <property name="driverregni" type="string">
+            <column name="driverregni" length="233" />
+        </property>
+        <property name="usernamez" type="string">
+            <column name="usernamez" length="233" />
+        </property>
+        <property name="contact" type="string">
+            <column name="contact" length="233" />
+        </property>
+        <property name="nicz" type="string">
+            <column name="nicz" length="233" />
+        </property>
+        <property name="datez" type="string">
+            <column name="datez" length="233" />
+        </property>
+        <property name="timez" type="string">
+            <column name="timez" length="233" />
+        </property>
+        <property name="statusz" type="string">
+            <column name="statusz" length="233" />
+        </property>
+        <property name="dropincity" type="string">
+            <column name="dropincity" length="233" />
+        </property>
+        <property name="dropoffcity" type="string">
+            <column name="dropoffcity" length="233" />
+        </property>
+        <property name="dropinaddress" type="string">
+            <column name="dropinaddress" length="65535" />
+        </property>
+        <property name="dropoffadress" type="string">
+            <column name="dropoffadress" length="65535" />
+        </property>
+        <property name="cost" type="string">
+            <column name="cost" length="233" />
+        </property>
+    </class>
+</hibernate-mapping>
