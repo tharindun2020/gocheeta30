@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 18, 2022 12:02:48 PM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="POJO.Vehicletypez" table="vehicletypez" catalog="cabservice">
+        <id name="vehid" type="java.lang.Integer">
+            <column name="vehid" />
+            <generator class="identity" />
+        </id>
+        <property name="vehtype" type="string">
+            <column name="vehtype" length="233" />
+        </property>
+        <property name="costa" type="string">
+            <column name="costa" length="233" />
+        </property>
+        <property name="statuz" type="string">
+            <column name="statuz" length="233" />
+        </property>
+    </class>
+</hibernate-mapping>
